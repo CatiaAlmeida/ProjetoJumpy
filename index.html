@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumpy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/logotipo.png" alt="Logo da DNC">
+    </header>
+
+    <main>
+        <img src="./assets/logo_jumpy.png" alt="Logo da Jumpy">
+        <h2>Bem vindo ao Jumpy!</h2>
+        <form id="principal">
+            <div class="formulario">
+                <label for="">Nome Completo:</label>
+                <input type="text" id="nome" placeholder="Nome Completo" value="">
+                <p class="msgAlerta"></p>
+            </div>
+            <div class="formulario">
+                <label for="">Email:</label>
+                <input type="email" id="email" placeholder="Email@email.com" value="">
+                <p class="msgAlerta"></p>
+            </div>
+            <div class="formulario">
+                <label for="">Telefone:</label>
+                <input type="tel" id="telefone" placeholder="(00) 00000-0000" value="">
+                <p class="msgAlerta"></p>
+            </div>
+            <div class="formulario">
+                <label for="">CPF:</label>
+                <input type="text" id="cpf" placeholder="000.000.000-00" value="">
+                <p class="msgAlerta"></p>
+            </div>
+            <div class="formulario">
+                <label for="">Senha:</label>
+                <input type="password" id="senha" placeholder="*******************" value="">
+                <p class="msgAlerta"></p> 
+            </div>
+            <button type="submit" calss="btn" id="botao" onclick="click" value="">Cadastrar</button>
+            <p class="msgAlerta"></p>
+            <p class="msgAlerta2"></p> 
+            </form>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
